@@ -25,9 +25,43 @@ public class Main {
             total = a * b;
             System.out.println("o total da multiplicaçao e: "+total);
 
+        }
+        if (num == 2 ){
 
+            System.out.println("informe o valor de A: ");
+            a = scan.nextDouble();
 
+            System.out.println("informe o valor de B: ");
+            b = scan.nextDouble();
 
+            total = a / b;
+            System.out.println("o total da divisão é: "+total);
+
+        }
+
+        if (num == 3 ){
+
+            System.out.println("informe o valor de A: ");
+            a = scan.nextDouble();
+
+            System.out.println("informe o valor de B: ");
+            b = scan.nextDouble();
+
+            total = a + b;
+            System.out.println("o total da adção é: "+total);
+
+        }
+
+        if (num == 4 ){
+
+            System.out.println("informe o valor de A: ");
+            a = scan.nextDouble();
+
+            System.out.println("informe o valor de B: ");
+            b = scan.nextDouble();
+
+            total = a - b;
+            System.out.println("o total da subritação é: "+total);
 
         }
 
